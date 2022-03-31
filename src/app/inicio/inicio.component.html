@@ -54,7 +54,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="TituloModalCentralizado">Nova Postagem</h5>
-                <button type="button" class="close" data-dimiss="modal" aria-label="Fechar">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -71,7 +71,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="tema">Escolha um Tema ou  <a href="">cadastre um novo</a>:</label>
+                    <label for="tema">Escolha um Tema ou  <a data-dismiss="modal" routerLink="/tema">cadastre um novo</a>:</label>
                     <select name="tema" id="tema" class="form-control">
                         <option value="">Temas</option>
                     </select>
@@ -79,7 +79,7 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dimiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                 <button type="button" class="btn btn-success">Publicar</button>
             </div>
         </div>
